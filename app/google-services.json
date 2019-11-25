@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "645227459584",
+    "firebase_url": "https://aspire-edutech.firebaseio.com",
+    "project_id": "aspire-edutech",
+    "storage_bucket": "aspire-edutech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645227459584:android:72ada77e86afc5af8154e5",
+        "android_client_info": {
+          "package_name": "com.aspireedutech.study_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645227459584-clq12l4aocri5vpv788mbt1hu375m1fj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aspireedutech.study_buddy",
+            "certificate_hash": "2caf1bdcb225e8e78455b9d474295ff74513d9a2"
+          }
+        },
+        {
+          "client_id": "645227459584-h8otkcjgbueai28827v2euklvccm6ojh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA99kWHNC7L_i_FgUdHWFvknvR5IU_BbKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645227459584-h8otkcjgbueai28827v2euklvccm6ojh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
