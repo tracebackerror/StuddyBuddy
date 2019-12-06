@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".HomeActivity">
+    android:accessibilityLiveRegion="polite"
+    tools:actionBarNavMode="standard"
+    tools:context=".HomeActivity"
+    tools:visibility="visible">
 
     <TextView
         android:id="@+id/textView"
@@ -34,15 +36,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             app:backgroundTint="@color/colorPrimary"
-            app:title="Menu Item Clicked"
-            app:fabAlignmentMode="center"
+            app:fabAlignmentMode="end"
+
             app:navigationIcon="@drawable/ic_menu_white_24dp"
-            app:menu="@menu/bottomappbar_menu"
-            />
+            app:title="Menu Item Clicked" />
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab"
+            android:id="@+id/fab_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_add_white_24dp"
