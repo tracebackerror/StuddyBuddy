@@ -38,7 +38,7 @@
             app:backgroundTint="@color/colorPrimary"
             app:fabAlignmentMode="end"
 
-            app:navigationIcon="@drawable/ic_menu_white_24dp"
+            app:navigationIcon="@drawable/ic_log_out_24dp"
             app:title="Menu Item Clicked" />
 
 
